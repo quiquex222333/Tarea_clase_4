@@ -1,0 +1,18 @@
+{
+  "name": "davidrodriguez",
+  "version": "1.0.0",
+  "description": "Inicializa el proyecto Node.js con valores por defecto\r ```\r npm init -y\r ```\r Instala Playwright Test como dependencia de desarrollo\r ```\r npm install -D @playwright/test\r ```\r Descarga los navegadores soportados por Playwright\r ```\r npx playwright install\r ```",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
