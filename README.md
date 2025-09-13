@@ -2,12 +2,16 @@
 
 # Framework en Cypress con JS
 
-Instalar cypress con el comando
+1. Instalar cypress:
 ```
 npm install cypress --save-dev
 ```
 
-para instalar las dependencias
+2. Instalar dependencias:
 ```
 npm install
+```
+3. Abrir Cypress:
+```
+npx cypress open
 ```
