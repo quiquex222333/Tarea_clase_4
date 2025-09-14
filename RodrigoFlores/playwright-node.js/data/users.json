@@ -1,0 +1,7 @@
+{
+  "valid": { "username": "standard_user", "password": "secret_sauce", "expected": "success" },
+  "locked": { "username": "locked_out_user", "password": "secret_sauce", "expected": "Sorry, this user has been locked out." },
+  "invalid": { "username": "no_existe", "password": "xxx", "expected": "Username and password do not match any user" },
+  "emptyUser": { "username": "", "password": "secret_sauce", "expected": "Username is required" },
+  "emptyPassword": { "username": "standard_user", "password": "", "expected": "Password is required" }
+}
