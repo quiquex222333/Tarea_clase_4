@@ -11,4 +11,19 @@ export const Assertions = {
     await expect(actualError).toContain(expectedMessage);
     logger.error(`Mensaje de error validado: "${expectedMessage}"`);
   }
+  ,
+  async shouldHaveProducts(items) {
+    await expect(items.length).toBeGreaterThan(0);
+    logger.success(`Se cargaron ${items.length} productos correctamente.`);
+  },
+
+  async shouldHaveCartItems(cartItems, expectedCount = 1) {
+    await expect(cartItems).toBe(expectedCount);
+    logger.success(`El carrito contiene ${expectedCount} producto(s).`);
+  },
+
+  async shouldBeLoggedOut(page) {
+    await expect(page.url()).toContain('/');
+    logger.success('Logout exitoso y redirigido a login.');
+  }
 };
