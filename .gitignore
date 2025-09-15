@@ -142,3 +142,26 @@ vite.config.ts.timestamp-*
 package-lock.json
 package.json
 requirements.txt
+package-lock.json
+cypress.config.js       
+cypress.config.ts
+tsconfig.json
+
+    # Dependencias de Node
+node_modules/
+
+# Logs de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Reportes y capturas de Cypress
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Archivos de sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
