@@ -8,13 +8,13 @@ describe('Login Sylius', () => {
         });
     });
 
-    it('should login successfully with valid credentials', () => {
+    it('iniciar sesión correctamente con credenciales válidas', () => {
         cy.login(adminUser);
         const loginPage = new LoginPage();
         loginPage.checkDashboard();
     });
 
-    it('should show error message with invalid credentials', () => {
+    it('mostrar un mensaje de error con credenciales inválidas', () => {
         cy.fixture('users').then((users) => {
             const invalidUser = users.invalidUser;
             cy.login(invalidUser);
