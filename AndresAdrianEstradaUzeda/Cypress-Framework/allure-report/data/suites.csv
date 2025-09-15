@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verificar acceso exitoso a área segura","15","Login exitoso con credenciales válidas","","Mon Sep 15 02:43:49 BOT 2025","passed","Mon Sep 15 02:43:49 BOT 2025","","The Internet - Tests","",""
+"","537","passes","","Mon Sep 15 02:43:47 BOT 2025","passed","Mon Sep 15 02:43:48 BOT 2025","","template spec","",""
+"Verificar mensaje de error con credenciales inválidas","20","Login fallido con credenciales inválidas","","Mon Sep 15 02:43:49 BOT 2025","passed","Mon Sep 15 02:43:49 BOT 2025","","The Internet - Tests","",""
+"Verificar que el usuario puede cerrar sesión correctamente","16","Logout exitoso","","Mon Sep 15 02:43:49 BOT 2025","passed","Mon Sep 15 02:43:49 BOT 2025","","The Internet - Tests","",""
+"Verificar que un producto se puede agregar correctamente al carrito","806","Agregar producto al carrito","","Mon Sep 15 02:43:44 BOT 2025","passed","Mon Sep 15 02:43:44 BOT 2025","","SauceDemo - Tests","",""

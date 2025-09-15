@@ -1,0 +1,6 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","Security Testing","0","Authentication","1","0","Secure Area Access","0"
+"0","","0","","1","0","","0"
+"0","Security Testing","0","Authentication","1","0","Invalid Login","0"
+"0","Security Testing","0","Authentication","1","0","Logout Process","0"
+"0","E-Commerce","0","Shopping Cart","1","0","Carrito de Compras","0"
