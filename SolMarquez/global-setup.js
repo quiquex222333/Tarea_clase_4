@@ -14,8 +14,6 @@ module.exports = async config => {
     const poManager = new POManager(page);
     const loginpage = poManager.getLoginPage();
     try {
-        console.log(baseURL);
-        console.log(storageState);
         await loginpage.navigateToUrl(baseURL);
         await sleep(5000);
         await loginpage.validateLogin(testConfig.username, testConfig.password);

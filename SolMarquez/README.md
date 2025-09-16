@@ -22,4 +22,5 @@ Para ejecutar los test de un solo archivo utilizar el comando
 
 ```
 npx playwright test tests/login.spec.js --headed
+npx playwright test tests/hipermaxi.spec.js --headed
 ```
