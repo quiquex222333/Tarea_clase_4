@@ -8,7 +8,7 @@ module.exports = defineConfig({
     viewportHeight: 720,
     defaultCommandTimeout: 8000,
     screenshotOnRunFailure: true,
-    chromeWebSecurity: false, // Evita bloqueos por iframes o contenido mixto
+    
 
     env: {
       SAUCEDEMO_URL: 'https://www.saucedemo.com',

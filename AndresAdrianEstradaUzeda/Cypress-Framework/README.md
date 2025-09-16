@@ -44,6 +44,7 @@ cypress/
 │── screenshots/    # Capturas automáticas de Cypress
 │── support/        # Comandos custom y configuración de plugins
 cypress.config.js   # Configuración global de Cypress
+
 ```
 
 ---

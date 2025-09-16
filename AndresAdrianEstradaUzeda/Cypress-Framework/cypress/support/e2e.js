@@ -27,14 +27,18 @@ beforeEach(() => {
 });
 
 afterEach(function () {
+  // Nombre seguro para el archivo, evitando caracteres inválidos
   const testTitle = this.currentTest.title.replace(/[:\/]/g, '');
   const specName = Cypress.spec.name;
-  const screenshotFileName = `${testTitle}.png`;
+  
+  // Añadimos timestamp para que cada corrida genere un archivo único
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  const screenshotFileName = `${testTitle}-${timestamp}.png`;
   const screenshotPath = `cypress/screenshots/${specName}/${screenshotFileName}`;
 
-  // 1) Tomar screenshot y esperar a que se guarde
+  // Tomar screenshot al finalizar el test
   cy.screenshot(screenshotFileName, { capture: 'runner' }).then(() => {
-    // 2) Leer archivo en base64 y adjuntarlo
+    // Leer la imagen y adjuntarla a Allure
     cy.task('readFileIfExists', screenshotPath).then((img) => {
       if (img) {
         cy.allure().attachment('Screenshot', Buffer.from(img, 'base64'), 'image/png');
