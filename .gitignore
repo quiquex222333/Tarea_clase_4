@@ -3,3 +3,4 @@ test-results
 package-lock.json
 package.json
 storageState.json
+playwright-report
