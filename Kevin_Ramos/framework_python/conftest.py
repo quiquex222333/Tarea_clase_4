@@ -12,7 +12,7 @@ def browser():
 @pytest.fixture
 def page(browser):
     context = browser.new_context()
-    page - context.new_page()
+    page = context.new_page()
     yield page
     context.close()
 
