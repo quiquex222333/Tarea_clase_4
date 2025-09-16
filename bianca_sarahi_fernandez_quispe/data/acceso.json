@@ -1,0 +1,27 @@
+{
+    "valido": 
+    [
+        {
+            "email": "admin@example.com",
+            "password": "admin123"
+        }
+    ],
+    "invalido": [
+        {
+            "email": "",
+            "password": ""
+        },
+        {
+            "email": "",
+            "password": "admin123"
+        },
+        {
+            "email": "admin@example.com",
+            "password": ""
+        },
+        {
+            "email": "nosirveee@example.com",
+            "password": "123"
+        }
+    ]
+}
