@@ -1,5 +1,8 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+const STORAGE_STATE_PATH = './playwright-auth/user.json'; 
+const BASE_URL = 'https://bookcart.azurewebsites.net/login';
+const BASE_URL_HOME = 'https://bookcart.azurewebsites.net/';
 
 /**
  * Read environment variables from file.
@@ -13,6 +16,7 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
+  globalSetup: require.resolve('./global-setup'),
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -36,8 +40,21 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: 'setup',
+      testMatch: 'global.setup.js',
+      use: {
+        storageState: STORAGE_STATE_PATH,
+        baseURL: BASE_URL
+      },
+    },
+    {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+         storageState: STORAGE_STATE_PATH,
+         baseURL: BASE_URL_HOME
+      },
+      dependencies: ['setup'],
     },
 
     /* {

@@ -16,6 +16,7 @@ Instalar las dependecias para playwright
 
 ```
 npm init playwright@latest  
+npm install fs-extra
 ```
 Para ejecutar los test de un solo archivo utilizar el comando 
 
