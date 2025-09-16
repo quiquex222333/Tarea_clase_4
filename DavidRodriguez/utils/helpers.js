@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- @param {string} name - Nombre base del archivo (sin extensión)
+ @param {string} name - Nombre base del archivo
  @returns {string} Ruta completa del archivo PNG
  */
 function screenshotPath(name) {
@@ -20,11 +20,7 @@ function screenshotPath(name) {
   return path.join(outDir, `${timestamp}_${name}.png`);
 }
 
-/**
- Espera un número fijo de milisegundos.
- @param {import('@playwright/test').Page} page - Página de Playwright
- @param {number} ms - Milisegundos a esperar
- */
+//Espera un número fijo de milisegundos
 async function waitFor(page, ms) {
   await page.waitForTimeout(ms * 1000);
 }

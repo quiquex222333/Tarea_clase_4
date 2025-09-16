@@ -14,3 +14,7 @@ Descarga los navegadores soportados por Playwright
 ```
 npx playwright install
 ```
+Para ejecutar los test
+```
+npx playwright test
+```
