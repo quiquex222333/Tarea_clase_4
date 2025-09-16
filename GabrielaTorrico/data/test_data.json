@@ -1,0 +1,9 @@
+{
+  "users": [
+    {"username": "j2ee", "password": "j2ee"},
+    {"username": "invalid", "password": "wrong"}
+  ],
+  "products": [
+    {"name": "K9-Dog", "category": "Dogs"}
+  ]
+}
