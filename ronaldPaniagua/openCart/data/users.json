@@ -1,0 +1,5 @@
+{
+     "valid": { "email": "201801673@est.umss.edu", "password": "201801673umssedu" },
+     "invalid": { "email": "201801598@est.umss", "password": "prueba456" }
+}
+
