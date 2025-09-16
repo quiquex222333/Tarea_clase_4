@@ -1,0 +1,26 @@
+{
+  "name": "cypress-allure-project",
+  "version": "1.0.0",
+  "description": "Framework de pruebas automatizadas con Cypress y Allure Report",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "test": "npm run cypress:run && npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation",
+    "allure",
+    "qa"
+  ],
+  "author": "Andres Estrada",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "cypress": "^15.2.0"
+  }
+}
