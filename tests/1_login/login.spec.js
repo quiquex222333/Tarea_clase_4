@@ -9,3 +9,5 @@ test('Visualización de Dashboard con sesión guardada', async ({ loggedInPage }
   await expect(dashboardHeader).toBeVisible({ timeout: 30000 });
   console.log('Test de dashboard usando sesión guardada ✅');
 });
+
+//cambio
