@@ -1,0 +1,6 @@
+{
+  "valid": { "username": "standard_user", "password": "secret_sauce" },
+  "problem": { "username": "problem_user", "password": "secret_sauce" },
+  "invalid": { "username": "usuarioEspecial", "password": "!$!$@#%^&*%" },
+  "noExiste": { "username": "Espinoza", "password": "12345678"}
+}
