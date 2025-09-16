@@ -1,0 +1,10 @@
+{
+  "valid_queries": [
+    "Maluma - 4 Babys",
+    "Maluma 4 Babys",
+    "4 Babys Maluma"
+  ],
+  "negative_queries": [
+    "zzz_inventado_123"
+  ]
+}

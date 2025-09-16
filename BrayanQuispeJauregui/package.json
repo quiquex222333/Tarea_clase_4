@@ -1,0 +1,14 @@
+{
+  "name": "brayanquips-playwright",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas con Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=html"
+  },
+  "author": "Brayan Quispe",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
