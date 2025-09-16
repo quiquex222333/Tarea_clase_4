@@ -1,0 +1,15 @@
+{
+  "name": "lilianaquirogaalmendras",
+  "version": "1.0.0",
+  "description": "1. Descargar el repositorio git https://github.com/quiquex222333/Tarea_clase_4 2. Crear directorio 3. Iniciar nmp y playwright con los siguientes comandos:   - _**npm init -y**_  - _**npm install -D playwright**_   - _**npx playwright install**_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
