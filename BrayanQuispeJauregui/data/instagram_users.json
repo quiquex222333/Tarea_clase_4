@@ -1,0 +1,11 @@
+{
+  "url": "https://www.instagram.com/accounts/login/",
+  "valid": {
+    "username": "brayanjulioquispe@gmail.com",
+    "password": "76986478a"
+  },
+  "invalid": {
+    "username": "usuario_falso",
+    "password": "contraseña_falsa"
+  }
+}
