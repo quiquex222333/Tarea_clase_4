@@ -25,3 +25,4 @@ despues de tener todo el ambiente listo y preparado, se debe ejecutar lo siguien
 ```
 npx playwright test
 ```
+SIMON VALDEZ
