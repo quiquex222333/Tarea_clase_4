@@ -21,32 +21,27 @@ git --version
 
 Clonar el repositorio:
 
-```bash
-git clone https://github.com/quiquex222333/Tarea_clase_4/git
-cd TAREA_CLASE_4
+- git clone https://github.com/quiquex222333/Tarea_clase_4/git
+- cd TAREA_CLASE_4
 
 Instalar dependencias:
 
-```bash
 npm install
 
 Instalar navegadores de Playwright:
 
-```bash
 npx playwright install
 
 
 1. Ejecutar todas las pruebas
 
-```bash
-npx playwright test
+- npx playwright test
 
 2. Ejecutar un archivo específico
 
-```bash
-npx playwright test tests/youtube_search.spec.js
+- npx playwright test tests/youtube_search.spec.js
 
 3. Ejecutar en un navegador específico: 
-npx playwright test --project=chromium
-npx playwright test --project=firefox
-npx playwright test --project=webkit
+- npx playwright test --project=chromium
+- npx playwright test --project=firefox
+- npx playwright test --project=webkit
