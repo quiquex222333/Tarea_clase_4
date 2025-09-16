@@ -10,4 +10,4 @@ test('Visualización de Dashboard con sesión guardada', async ({ loggedInPage }
   console.log('Test de dashboard usando sesión guardada ✅');
 });
 
-//cambio
+//cambioo
