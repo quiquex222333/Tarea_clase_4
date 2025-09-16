@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# Report folders
+playwright-report/
+test-results/
+screenshots/
+
+# Coverage reports
+coverage/
+
+# OS generated files
+.DS_Store
+
+# Lock files (si quieres ignorar package-lock.json, aunque normalmente se recomienda subirlo)
+package-lock.json
+
+# Otros
+.vscode/
