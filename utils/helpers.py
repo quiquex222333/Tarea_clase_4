@@ -10,3 +10,6 @@ def screenshot_path(name: str) -> str:
 
 def wait_for_2():
     sleep(2)
+    
+def wait_for_5():
+    sleep(5)
