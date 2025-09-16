@@ -39,11 +39,6 @@ class CustomerPage {
 
         await this.page.click(this.save_customer_button);
     }
-
-    async customer_in_list() {
-        //TODO: implementar
-    }
-
 }
 
 module.exports = {CustomerPage};
