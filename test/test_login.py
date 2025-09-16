@@ -8,10 +8,11 @@ from utils.helpers import screenshot_path, wait_for_5
 with open("data/users.json") as file:
     USERS = json.load(file)
 
+
 # @pytest.mark.smoke
 @pytest.mark.parametrize("user_key, expected_success", [
     ("valid", True),
-    ("locked", False),
+    ("problem", True),
     ("invalid", False),
     ("noExiste", True)
 ])
