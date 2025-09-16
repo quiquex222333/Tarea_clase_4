@@ -1,0 +1,4 @@
+{
+     "valido": { "username": "SaimonValdez", "password": "MPCH2015" },
+     "invalido": { "username": "SaimnValdez", "password": "abc123" }
+}
