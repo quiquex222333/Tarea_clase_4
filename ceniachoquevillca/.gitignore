@@ -1,3 +1,12 @@
-venv
-
-reports
+.env
+*.env
+.env.*
+/venv/
+/.venv/
+.env
+/playwright-report/
+/test-results/
+/reports/
+/node_modules/
+/playwright-report/index.html
+/test-results/.last-run.json
