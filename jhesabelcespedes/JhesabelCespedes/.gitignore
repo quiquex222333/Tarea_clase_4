@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+package-lock.json
+
+# Cypress outputs
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Sistema operativo
+.DS_Store
+
+# IDE / Editor
+.vscode/
+
