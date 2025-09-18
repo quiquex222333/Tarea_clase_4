@@ -1,0 +1,10 @@
+{
+  "valid_user": {
+    "username": "skynet003k@gmail.com",
+    "password": "holamundo"
+  },
+  "invalid_user": {
+    "username": "hola@fleetbase.com",
+    "password": "wrongpass"
+  }
+}
