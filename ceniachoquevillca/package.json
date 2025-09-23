@@ -1,0 +1,19 @@
+{
+  "name": "ceniachoquevillca",
+  "version": "1.0.0",
+  "description": "Framework de pruebas E2E con Playwright",
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.2"
+  }
+}
